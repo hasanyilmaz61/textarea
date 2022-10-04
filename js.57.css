@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(158, 209, 185);
+
+}
+ #conteiner{
+    display: flex;
+    flex-direction: column;
+ }
+ span{margin-top: 5px;
+    display: flex;
+    justify-content: end;
+
+ }
+ #nachricht{
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+ }
